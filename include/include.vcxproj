@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6751F8C3-7BB5-44E9-BBA4-B03D9232B18D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>include</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="common\accept4.h" />
+    <ClInclude Include="common\base64.h" />
+    <ClInclude Include="common\buffer.h" />
+    <ClInclude Include="common\cfgparse.h" />
+    <ClInclude Include="common\chunk.h" />
+    <ClInclude Include="common\compat.h" />
+    <ClInclude Include="common\compiler.h" />
+    <ClInclude Include="common\config.h" />
+    <ClInclude Include="common\debug.h" />
+    <ClInclude Include="common\defaults.h" />
+    <ClInclude Include="common\epoll.h" />
+    <ClInclude Include="common\errors.h" />
+    <ClInclude Include="common\hash.h" />
+    <ClInclude Include="common\memory.h" />
+    <ClInclude Include="common\mini-clist.h" />
+    <ClInclude Include="common\namespace.h" />
+    <ClInclude Include="common\rbtree.h" />
+    <ClInclude Include="common\regex.h" />
+    <ClInclude Include="common\splice.h" />
+    <ClInclude Include="common\standard.h" />
+    <ClInclude Include="common\syscall.h" />
+    <ClInclude Include="common\template.h" />
+    <ClInclude Include="common\ticks.h" />
+    <ClInclude Include="common\time.h" />
+    <ClInclude Include="common\tools.h" />
+    <ClInclude Include="common\uri_auth.h" />
+    <ClInclude Include="common\version.h" />
+    <ClInclude Include="import\51d.h" />
+    <ClInclude Include="import\da.h" />
+    <ClInclude Include="import\lru.h" />
+    <ClInclude Include="import\xxhash.h" />
+    <ClInclude Include="proto\acl.h" />
+    <ClInclude Include="proto\action.h" />
+    <ClInclude Include="proto\applet.h" />
+    <ClInclude Include="proto\arg.h" />
+    <ClInclude Include="proto\auth.h" />
+    <ClInclude Include="proto\backend.h" />
+    <ClInclude Include="proto\channel.h" />
+    <ClInclude Include="proto\checks.h" />
+    <ClInclude Include="proto\compression.h" />
+    <ClInclude Include="proto\connection.h" />
+    <ClInclude Include="proto\dns.h" />
+    <ClInclude Include="proto\dumpstats.h" />
+    <ClInclude Include="proto\fd.h" />
+    <ClInclude Include="proto\filters.h" />
+    <ClInclude Include="proto\flt_http_comp.h" />
+    <ClInclude Include="proto\freq_ctr.h" />
+    <ClInclude Include="proto\frontend.h" />
+    <ClInclude Include="proto\hdr_idx.h" />
+    <ClInclude Include="proto\hlua.h" />
+    <ClInclude Include="proto\hlua_fcn.h" />
+    <ClInclude Include="proto\lb_chash.h" />
+    <ClInclude Include="proto\lb_fas.h" />
+    <ClInclude Include="proto\lb_fwlc.h" />
+    <ClInclude Include="proto\lb_fwrr.h" />
+    <ClInclude Include="proto\lb_map.h" />
+    <ClInclude Include="proto\listener.h" />
+    <ClInclude Include="proto\log.h" />
+    <ClInclude Include="proto\map.h" />
+    <ClInclude Include="proto\obj_type.h" />
+    <ClInclude Include="proto\pattern.h" />
+    <ClInclude Include="proto\payload.h" />
+    <ClInclude Include="proto\peers.h" />
+    <ClInclude Include="proto\pipe.h" />
+    <ClInclude Include="proto\port_range.h" />
+    <ClInclude Include="proto\protocol.h" />
+    <ClInclude Include="proto\proto_http.h" />
+    <ClInclude Include="proto\proto_tcp.h" />
+    <ClInclude Include="proto\proto_udp.h" />
+    <ClInclude Include="proto\proto_uxst.h" />
+    <ClInclude Include="proto\proxy.h" />
+    <ClInclude Include="proto\queue.h" />
+    <ClInclude Include="proto\raw_sock.h" />
+    <ClInclude Include="proto\sample.h" />
+    <ClInclude Include="proto\server.h" />
+    <ClInclude Include="proto\session.h" />
+    <ClInclude Include="proto\shctx.h" />
+    <ClInclude Include="proto\signal.h" />
+    <ClInclude Include="proto\ssl_sock.h" />
+    <ClInclude Include="proto\stick_table.h" />
+    <ClInclude Include="proto\stream.h" />
+    <ClInclude Include="proto\stream_interface.h" />
+    <ClInclude Include="proto\task.h" />
+    <ClInclude Include="proto\template.h" />
+    <ClInclude Include="proto\vars.h" />
+    <ClInclude Include="types\acl.h" />
+    <ClInclude Include="types\action.h" />
+    <ClInclude Include="types\applet.h" />
+    <ClInclude Include="types\arg.h" />
+    <ClInclude Include="types\auth.h" />
+    <ClInclude Include="types\backend.h" />
+    <ClInclude Include="types\capture.h" />
+    <ClInclude Include="types\channel.h" />
+    <ClInclude Include="types\checks.h" />
+    <ClInclude Include="types\compression.h" />
+    <ClInclude Include="types\connection.h" />
+    <ClInclude Include="types\counters.h" />
+    <ClInclude Include="types\dns.h" />
+    <ClInclude Include="types\fd.h" />
+    <ClInclude Include="types\filters.h" />
+    <ClInclude Include="types\freq_ctr.h" />
+    <ClInclude Include="types\global.h" />
+    <ClInclude Include="types\hdr_idx.h" />
+    <ClInclude Include="types\hlua.h" />
+    <ClInclude Include="types\lb_chash.h" />
+    <ClInclude Include="types\lb_fas.h" />
+    <ClInclude Include="types\lb_fwlc.h" />
+    <ClInclude Include="types\lb_fwrr.h" />
+    <ClInclude Include="types\lb_map.h" />
+    <ClInclude Include="types\listener.h" />
+    <ClInclude Include="types\log.h" />
+    <ClInclude Include="types\mailers.h" />
+    <ClInclude Include="types\map.h" />
+    <ClInclude Include="types\obj_type.h" />
+    <ClInclude Include="types\pattern.h" />
+    <ClInclude Include="types\peers.h" />
+    <ClInclude Include="types\pipe.h" />
+    <ClInclude Include="types\port_range.h" />
+    <ClInclude Include="types\protocol.h" />
+    <ClInclude Include="types\proto_http.h" />
+    <ClInclude Include="types\proto_udp.h" />
+    <ClInclude Include="types\proxy.h" />
+    <ClInclude Include="types\queue.h" />
+    <ClInclude Include="types\sample.h" />
+    <ClInclude Include="types\server.h" />
+    <ClInclude Include="types\session.h" />
+    <ClInclude Include="types\signal.h" />
+    <ClInclude Include="types\ssl_sock.h" />
+    <ClInclude Include="types\stick_table.h" />
+    <ClInclude Include="types\stream.h" />
+    <ClInclude Include="types\stream_interface.h" />
+    <ClInclude Include="types\task.h" />
+    <ClInclude Include="types\template.h" />
+    <ClInclude Include="types\vars.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

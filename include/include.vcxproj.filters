@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{9fc557eb-2739-4136-91cd-f03a76a44712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="types">
+      <UniqueIdentifier>{2f1cffe1-8ccc-465c-95c8-08146f1324c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{da920b90-3b33-4805-962e-28f2ecc667d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="import">
+      <UniqueIdentifier>{cedaaa5f-1414-4405-a4ee-1fd378314d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common\accept4.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\base64.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\buffer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cfgparse.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\chunk.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compat.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\compiler.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\defaults.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\epoll.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\errors.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\hash.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\memory.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mini-clist.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\namespace.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rbtree.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\regex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\splice.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\standard.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\syscall.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\template.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ticks.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\time.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tools.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\uri_auth.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\version.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="import\51d.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="import\da.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="import\lru.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="import\xxhash.h">
+      <Filter>import</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\acl.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\action.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\applet.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\arg.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\auth.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\backend.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\channel.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\checks.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\compression.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\connection.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\dns.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\dumpstats.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\fd.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\filters.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\flt_http_comp.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\freq_ctr.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\frontend.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\hdr_idx.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\hlua.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\hlua_fcn.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\lb_chash.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\lb_fas.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\lb_fwlc.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\lb_fwrr.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\lb_map.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\listener.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\log.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\map.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\obj_type.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\pattern.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\payload.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\peers.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\pipe.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\port_range.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\protocol.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\proto_http.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\proto_tcp.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\proto_udp.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\proto_uxst.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\proxy.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\queue.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\raw_sock.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\sample.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\server.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\session.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\shctx.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\signal.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\ssl_sock.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\stick_table.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\stream.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\stream_interface.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\task.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\template.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="proto\vars.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="types\acl.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\action.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\applet.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\arg.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\auth.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\backend.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\capture.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\channel.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\checks.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\compression.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\connection.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\counters.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\dns.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\fd.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\filters.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\freq_ctr.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\global.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\hdr_idx.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\hlua.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\lb_chash.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\lb_fas.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\lb_fwlc.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\lb_fwrr.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\lb_map.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\listener.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\log.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\mailers.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\map.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\obj_type.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\pattern.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\peers.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\pipe.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\port_range.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\protocol.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\proto_http.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\proto_udp.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\proxy.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\queue.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\sample.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\server.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\session.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\signal.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\ssl_sock.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\stick_table.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\stream.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\stream_interface.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\task.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\template.h">
+      <Filter>types</Filter>
+    </ClInclude>
+    <ClInclude Include="types\vars.h">
+      <Filter>types</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ebistree.h" />
+    <ClInclude Include="ebmbtree.h" />
+    <ClInclude Include="ebpttree.h" />
+    <ClInclude Include="ebsttree.h" />
+    <ClInclude Include="ebtree.h" />
+    <ClInclude Include="compiler.h" />
+    <ClInclude Include="eb32tree.h" />
+    <ClInclude Include="eb64tree.h" />
+    <ClInclude Include="ebimtree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ebmbtree.c" />
+    <ClCompile Include="ebpttree.c" />
+    <ClCompile Include="ebsttree.c" />
+    <ClCompile Include="ebtree.c" />
+    <ClCompile Include="eb32tree.c" />
+    <ClCompile Include="eb64tree.c" />
+    <ClCompile Include="ebimtree.c" />
+    <ClCompile Include="ebistree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE" />
+  </ItemGroup>
+</Project>

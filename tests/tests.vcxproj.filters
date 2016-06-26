@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="test-map-ports.cfg" />
+    <None Include="test-pollers.cfg" />
+    <None Include="test-redirect.cfg" />
+    <None Include="test-sample-fetch-args.cfg" />
+    <None Include="test-sample-fetch-conv.cfg" />
+    <None Include="test-sql.cfg" />
+    <None Include="test-str2sa.cfg" />
+    <None Include="test-time.cfg" />
+    <None Include="test-timeout.cfg" />
+    <None Include="test-url-hash.cfg" />
+    <None Include="test-valid-names.cfg" />
+    <None Include="0000-debug-stats.diff" />
+    <None Include="test-acl-args.cfg" />
+    <None Include="test-address-syntax.cfg" />
+    <None Include="test-backlog.cfg" />
+    <None Include="test-check-expect.cfg" />
+    <None Include="test-connection.cfg" />
+    <None Include="test-cookie-indirect.cfg" />
+    <None Include="test-cookie-insert.cfg" />
+    <None Include="test-cookie-passive.cfg" />
+    <None Include="test-cookie-prefix.cfg" />
+    <None Include="test-cookie-rewrite.cfg" />
+    <None Include="test-disable-404.cfg" />
+    <None Include="test-fsm.cfg" />
+    <None Include="test-fwlc.cfg" />
+    <None Include="test-fwrr.cfg" />
+    <None Include="test-http-send-name-hdr.cfg" />
+    <None Include="test-inspect-smtp.cfg" />
+    <None Include="test-inspect-ssl.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="uri_hash.c" />
+    <ClCompile Include="blocksig.c" />
+    <ClCompile Include="filltab25.c" />
+    <ClCompile Include="ip-hash.c" />
+    <ClCompile Include="reset.c" />
+    <ClCompile Include="test.c" />
+    <ClCompile Include="test_hashes.c" />
+    <ClCompile Include="test_pools.c" />
+    <ClCompile Include="test-arg.c" />
+    <ClCompile Include="testinet.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="hash_results.txt" />
+    <Text Include="hashing-results.txt" />
+    <Text Include="io_limits.txt" />
+    <Text Include="sockstat.txt" />
+  </ItemGroup>
+</Project>
